@@ -85,7 +85,7 @@ PM_START_TEXT = f"""Hello, My Name is {BOT_NAME}
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
 
-This Probot was Created by [ℙℝ𝕀ℕℂ𝔼](https://t.me/devilsdad_prince)
+This Probot was Created by [JOEY](https://t.me/DeepakV111_bot)
 Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
@@ -387,7 +387,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_Tiana's licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/prince301102/tiana-2.0).
+                 Here is the [💾Repository](https://t.me/DeepakV111_bot).
                  If you have any question about masha, let us know at [SUPPORT CHAT](https://t.me/{SUPPORT_CHAT}).""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -415,7 +415,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..🤗 I'm *TIANA BOT*
-                 \nHere is the [Source Code](https://GitHub.com/prince301102/tiana-2.0) .""",
+                 \nHere is the [Source Code](https://DeepakV111_bot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
